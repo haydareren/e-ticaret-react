@@ -4,7 +4,7 @@ class ProductList extends Component{
     render(){
         return(
             <div>
-                <h2>Urunlerin Listesi</h2>
+                <h2>{this.props.info.title}-{this.props.categoryName}</h2>
             </div>
         )
     }
